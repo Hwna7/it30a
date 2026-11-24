@@ -345,6 +345,7 @@ while ($row = $catStmt->fetch()) {
     </div>
 
 </div>
+
 <script>
     (function() {
         // Materialize standard palette
@@ -411,3 +412,6 @@ while ($row = $catStmt->fetch()) {
         });
     })();
 </script>
+
+</body>
+</html>
