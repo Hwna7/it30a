@@ -252,7 +252,7 @@ $recentBorrows = $recentStmt->fetchAll();
                 }
             }
         });
-    })();
+    
     
 // ---------- BAR: BORROWS LAST 7 DAYS ----------
 const borrowCtx = document
@@ -320,6 +320,7 @@ new Chart(borrowCtx, {
                 }
             }
                     });
+    })();
 </script>
 </body>
 </html>
